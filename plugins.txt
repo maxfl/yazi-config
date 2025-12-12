@@ -1,0 +1,17 @@
+Plugins:
+	yazi-rs/plugins:chmod (9a09505)
+	yazi-rs/plugins:diff (9a09505)
+	yazi-rs/plugins:git (9a09505)
+	Reledia/miller (40e0265)
+	ndtoan96/ouch (558188d)
+	AnirudhG07/rich-preview (2559e5f)
+	lpanebr/yazi-plugins:first-non-directory (ca18a2c)
+	Lil-Dank/lazygit (7a08a09)
+	grappas/wl-clipboard (c4edc4f)
+	Ape/open-with-cmd (433cf30)
+	pirafrank/what-size (f1c6b69)
+	macydnah/office (bcd9e9e)
+	huo-feng-ding/keyjump (2a61f5e)
+	yazi-rs/plugins:toggle-pane (9a09505)
+Flavors:
+	yazi-rs/flavors:catppuccin-latte (68326b4)
