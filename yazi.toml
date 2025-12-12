@@ -35,6 +35,7 @@ prepend_previewers = [
   { name = "*.tsv", run = "duckdb" },
   { name = "*.json", run = "duckdb" },
   { name = "*.parquet", run = "duckdb" },
+  { name = "*.root", run = 'piper -- rootls -lr "$1"' },
   # { name = "*.txt", run = "duckdb" },
   { name = "*.xlsx", run = "duckdb" },
   { name = "*.db", run = "duckdb" },
