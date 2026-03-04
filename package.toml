@@ -1,37 +1,37 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "19dc890"
-hash = "5b2eb0cc2050cec1e4de83cfa51a5b90"
+rev = "b224ddf"
+hash = "815dd20e682dec52bb92864037fa5f53"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:diff"
-rev = "19dc890"
-hash = "82376c3381ae915fd799d40f4dd4c6cd"
+rev = "b224ddf"
+hash = "8b1af6b5a69797ee951f2a80ce570818"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "19dc890"
-hash = "94081eed9bc9fe176715c33b0db55d35"
+rev = "b224ddf"
+hash = "270915fa8282a19908449530ff66f7e2"
 
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "cfb9140"
-hash = "b5067143415bd2d46c0dfa57319ddcef"
+rev = "594b8a2"
+hash = "c9e628fc0312d198db22ae2fa74883b"
 
 [[plugin.deps]]
 use = "AnirudhG07/rich-preview"
-rev = "831234e"
-hash = "ed3363e256e210593f0f8e4cec3e36a9"
+rev = "7d616ad"
+hash = "d64feec9761392cbc250d199ab4b8a3a"
 
 [[plugin.deps]]
 use = "Lil-Dank/lazygit"
-rev = "8f37dc5"
-hash = "ee71543790f0ce3951161045a3787abd"
+rev = "0e56060"
+hash = "ab2e66065a94cca4886b303518e44bd8"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "d896656"
-hash = "62251f94eb67648d42cdfcfb8be0fad2"
+rev = "179ebf6"
+hash = "57056b9728006881d580ccabe8154a9c"
 
 [[plugin.deps]]
 use = "macydnah/office"
@@ -40,13 +40,13 @@ hash = "5805affd3ae8adcb3c72b6997d21c0a6"
 
 [[plugin.deps]]
 use = "huo-feng-ding/keyjump"
-rev = "df9c63a"
-hash = "c91b36faf3d5b9ba695a45294d730a40"
+rev = "0d4b54f"
+hash = "7a692df35cccbfbd4987a88e7d223c19"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "19dc890"
-hash = "8a7c58225816a163a6e8730c0adafbc8"
+rev = "b224ddf"
+hash = "4c0260feb50ea2437380690ffc241da7"
 
 [[plugin.deps]]
 use = "AlexVolshin/wl-clipboard"
@@ -64,14 +64,9 @@ rev = "50d24b8"
 hash = "59ab6275308202d17e3b5383d03ce5b4"
 
 [[plugin.deps]]
-use = "OliverPortee/open-with-cmd"
-rev = "bcaf8dd"
-hash = "ea96ced4dcff75481f32996fd8788f7b"
-
-[[plugin.deps]]
 use = "hankertrix/augment-command"
-rev = "f0e6f44"
-hash = "9bcfdacce6b89dfd039a895c8403e5de"
+rev = "681158d"
+hash = "63ed5325016895306781d13690b246bf"
 
 [[plugin.deps]]
 use = "simla33/ucp"
@@ -85,15 +80,25 @@ hash = "87b9233a74325e95011670ed20bbd0d4"
 
 [[plugin.deps]]
 use = "AminurAlam/yazi-plugins:preview-git"
-rev = "36f84e6"
-hash = "c3a5cdaa0267eeed6f2612cfde7f9ad8"
+rev = "f3608de"
+hash = "52f20cafe2faf4901910ef77da8956e8"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "19dc890"
-hash = "b26d542e75151835d7bc885f6dda74cb"
+rev = "b224ddf"
+hash = "384464b6df8cb807425c521f8cd790f3"
+
+[[plugin.deps]]
+use = "Ape/open-with-cmd"
+rev = "e3d430f"
+hash = "d29c1ffa99099181faf8c01d1f59aa4c"
+
+[[plugin.deps]]
+use = "barbanevosa/linemode-plus"
+rev = "4d0d034"
+hash = "5d0ac26725d9a975bef1d0887374f10e"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "3edeb49"
-hash = "d7353bc6c4c10cff53bb63e1471f44a5"
+rev = "3001521"
+hash = "c6b710b2aa0fb9c6c7f1ec4db6146104"

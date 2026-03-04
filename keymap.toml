@@ -35,6 +35,48 @@ run = "plugin toggle-pane reset"
 desc = "Reset toggled panes"
 
 #
+# Linemode
+#
+[[mgr.prepend_keymap]]
+# linemode-plus plugin
+on = [ "m", "c" ]
+run = "linemode size_mtime"
+desc = "Linemode: size+mtime"
+
+  
+# Sorting does not override linemode (recommended) 
+[[mgr.prepend_keymap]]
+on = [ ",", "m" ]
+run = [ "sort mtime --reverse=no" ]
+desc = "Sort by modified time"
+
+[[mgr.prepend_keymap]]
+on = [ ",", "M" ]
+run = [ "sort mtime --reverse=yes" ]
+desc = "Sort by modified time (reverse)"
+
+[[mgr.prepend_keymap]]
+on = [ ",", "b" ]
+run = [ "sort btime --reverse=no" ]
+desc = "Sort by birth time"
+
+[[mgr.prepend_keymap]]
+on = [ ",", "B" ]
+run = [ "sort btime --reverse=yes" ]
+desc = "Sort by birth time (reverse)"
+
+[[mgr.prepend_keymap]]
+on = [ ",", "s" ]
+run = [ "sort size --reverse=no" ]
+desc = "Sort by size"
+
+[[mgr.prepend_keymap]]
+on = [ ",", "S" ]
+run = [ "sort size --reverse=yes" ]
+desc = "Sort by size (reverse)"
+
+
+#
 # View, edit, diff
 #
 
@@ -162,7 +204,7 @@ desc = "run lazygit"
 
 [[mgr.prepend_keymap]]
 on = "O"
-run = "plugin open-with-cmd block"
+run = "plugin open-with-cmd -- block"
 desc = "Open with command in the terminal"
 
 [[mgr.prepend_keymap]]
