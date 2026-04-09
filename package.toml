@@ -1,16 +1,16 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "1962818"
+rev = "7749958"
 hash = "f0c8c378184d5f8abd1b095a443d336d"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:diff"
-rev = "1962818"
+rev = "7749958"
 hash = "8b1af6b5a69797ee951f2a80ce570818"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "1962818"
+rev = "7749958"
 hash = "26db011a778f261d730d4f5f8bf24b3f"
 
 [[plugin.deps]]
@@ -45,7 +45,7 @@ hash = "7a692df35cccbfbd4987a88e7d223c19"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "1962818"
+rev = "7749958"
 hash = "4c0260feb50ea2437380690ffc241da7"
 
 [[plugin.deps]]
@@ -60,8 +60,8 @@ hash = "92fbb5483657fa7976cdf4e0104e18e0"
 
 [[plugin.deps]]
 use = "tasnimAlam/thumbnail"
-rev = "50d24b8"
-hash = "59ab6275308202d17e3b5383d03ce5b4"
+rev = "ec7bdf4"
+hash = "eb2403e88274cddc692ed21b7b72a1d1"
 
 [[plugin.deps]]
 use = "hankertrix/augment-command"
@@ -70,8 +70,8 @@ hash = "63ed5325016895306781d13690b246bf"
 
 [[plugin.deps]]
 use = "simla33/ucp"
-rev = "96f54af"
-hash = "2011ef145f7d4aaa23cbc64c05cd6a7f"
+rev = "b74651d"
+hash = "a008e4f6e4222f282472044bec7df1ef"
 
 [[plugin.deps]]
 use = "wylie102/duckdb"
@@ -80,12 +80,12 @@ hash = "87b9233a74325e95011670ed20bbd0d4"
 
 [[plugin.deps]]
 use = "AminurAlam/yazi-plugins:preview-git"
-rev = "1d28640"
+rev = "a36ff71"
 hash = "52f20cafe2faf4901910ef77da8956e8"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "1962818"
+rev = "7749958"
 hash = "384464b6df8cb807425c521f8cd790f3"
 
 [[plugin.deps]]
@@ -100,5 +100,5 @@ hash = "5d0ac26725d9a975bef1d0887374f10e"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "9511cb0"
+rev = "0670801"
 hash = "b8f46853c27707115f25f3423a47bd38"
